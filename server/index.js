@@ -6,6 +6,8 @@ app.get("/", (req, res) => {
   res.send("Hello World");
 });
 
-app.listen(4000, () => {
-  console.log("Server running");
-});
+// app.listen(4000, () => {
+//   console.log("Server running");
+// });
+
+module.exports = app;
